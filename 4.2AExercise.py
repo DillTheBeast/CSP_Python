@@ -1,8 +1,6 @@
-
-
 #Dillon Maltese
 #3/2/23
-#Exercise 4.2
+#Exercise 4.2A
 
 print("This is not my first real program!")
 #Python is a super cool
