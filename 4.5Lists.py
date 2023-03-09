@@ -12,7 +12,10 @@ a = 0
 b = 0
 j = 0
 o = 0
+c = 0
 place = 0
+low = 0
+high = 0
 #Every other name
 print("Every other name")
 while(y < len(names)) :
@@ -43,12 +46,22 @@ for i in numbers:
 #Names that come before Thor
 print("Names that come before Thor in the alphabet")
 
-for i in names:
-    for p in names[j]:
-        first = names[o]
-    place = ord(str(first))
-    print(place)
+names.append("Thor")
+names.sort()
+
+for i in names :
+    if(names[j] == "Thor"):
+        break
+    print(names[j])
     j+=1
 
+#Find the lowest and highest number
 
-
+for i in numbers :
+    if(int(numbers[c]) < int(low)):
+        low = numbers[c]
+    elif(int(numbers[c]) > int(high)):
+        high = numbers[c]
+    c+=1
+print("Low: " + str(low))
+print("High: " + str(high))

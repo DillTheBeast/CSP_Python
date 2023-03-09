@@ -1,0 +1,2 @@
+This use of an array manages complexity because it allows us to use a for loop.
+Without it, it would be a lot harder because you would have to go through each variable for each problem.
