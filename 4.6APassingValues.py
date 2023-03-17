@@ -3,7 +3,13 @@
 
 def compare(input1, input2):
     if(input1 < input2):
-        print(str(input2) + " is greater than " + str(input1))
+        print(str(input1) + " is less than " + str(input2))
+    elif(input1 > input2):
+        print(str(input1) + " is greater than " + str(input2))
+    elif(input1 == input2):
+        print(str(input1) + " is equal to " + str(input2))
+    else:
+        print("This should not happen")
 
 
 for i in range(3):
